@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 7,
-    "start": "2023-05-03T11:22:51.061Z",
-    "end": "2023-05-03T11:22:51.520Z",
-    "duration": 459
+    "start": "2023-05-03T12:00:15.612Z",
+    "end": "2023-05-03T12:00:16.075Z",
+    "duration": 463
   },
   "tests": [
     {
@@ -57,7 +57,7 @@
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:31:14)\n    at processImmediate (internal/timers.js:464:21)",
@@ -87,7 +87,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:48:14)\n    at processImmediate (internal/timers.js:464:21)",
@@ -133,7 +133,7 @@
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:31:14)\n    at processImmediate (internal/timers.js:464:21)",
@@ -163,7 +163,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:48:14)\n    at processImmediate (internal/timers.js:464:21)",
