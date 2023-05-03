@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 5,
+    "passes": 7,
     "pending": 0,
-    "failures": 5,
-    "start": "2023-05-03T12:08:02.870Z",
-    "end": "2023-05-03T12:08:03.319Z",
-    "duration": 449
+    "failures": 3,
+    "start": "2023-05-03T12:13:08.074Z",
+    "end": "2023-05-03T12:13:08.527Z",
+    "duration": 453
   },
   "tests": [
     {
@@ -34,41 +34,30 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, ' to contain 'TITO MUCHOKI'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, ",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ' to contain 'TITO MUCHOKI'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (internal/timers.js:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected ' ' to equal '!'",
-        "showDiff": true,
-        "actual": " ",
-        "expected": "!",
-        "stack": "AssertionError: expected ' ' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:35:51)\n    at processImmediate (internal/timers.js:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains \"Welcome, \"",
@@ -103,31 +92,6 @@
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, ' to contain 'TITO MUCHOKI'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, ",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, ' to contain 'TITO MUCHOKI'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (internal/timers.js:464:21)"
-      }
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected ' ' to equal '!'",
-        "showDiff": true,
-        "actual": " ",
-        "expected": "!",
-        "stack": "AssertionError: expected ' ' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:35:51)\n    at processImmediate (internal/timers.js:464:21)"
-      }
-    },
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
@@ -184,13 +148,27 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
